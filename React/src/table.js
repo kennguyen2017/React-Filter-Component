@@ -23,7 +23,7 @@ const TableFilter = ({ data, columns }) => {
     <div>
       <input
         type="text"
-        placeholder="Tìm kiếm..."
+        placeholder="Search..."
         value={filter}
         onChange={(e) => setFilter(e.target.value)}
       />
